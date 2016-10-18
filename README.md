@@ -1,8 +1,8 @@
 # HtmlArray
-用前端的方式方法组合html页面，静态页面组合的快速方案。
+Combined with the front end of the way HTML page, a combination of static page fast program.
 
-### [简单示例](https://github.com/dingdong-io/HtmlArray/blob/master/examples/easy.html)
-核心代码  
+### [Simple Example](https://github.com/dingdong-io/HtmlArray/blob/master/examples/easy.html)
+Core code 
 
     <script type="text/javascript" src="other/jquery-2.1.4.min.js"></script>
     <script  type="text/javascript" src="../HtmlArray.js"></script>
@@ -12,42 +12,42 @@
         "module/footer/footer.html",
       ];
     </script>
-1. 引入依赖的jQuery
-2. 引入HtmlArray
-3. 定义HtmlArray数组，每一个子页面的路径（字符串格式）集合。  
-　　好了，打开页面看看吧，就是如此简单。  
-如果还有什么要说的，路径需要在本地，不允许跨域，写个`"http://example.com"`是无效的（除非你是该站站长）
+1 introduce dependency jQuery
+2 the introduction of HtmlArray
+3 define the HtmlArray array, each sub page of the path (string format) collection.
+Well, open the page to see it, is so simple.
+If there is anything else to say, the path needs to be local, do not allow cross domain, write a ` http://example.com 'is invalid (unless you are the station webmaster)
   
-### [参数范例](https://github.com/dingdong-io/HtmlArray/blob/master/examples/AllConfig.html)
-  !!待补充
+### [Parameter example](https://github.com/dingdong-io/HtmlArray/blob/master/examples/AllConfig.html)
+  !!To be added
 
-### 使用环境
+### Use environment
 　　项目的初衷就是用纯前端的方式来组合页，甚至允许前端工程师不用搭建服务器。
 
-*  适用范围  
-  快速组合页面，特别适合前端工程师  
-  !!待补充  
+*  Scope of application
+Quick combination page, especially suitable for front end Engineer
+!! To be added 
   
-*  不搭建服务器  
-  当然这种时候你只能在本地打开，不过需要做一步设置，可以[参考这里](http://blog.sina.com.cn/s/blog_a76aa1590101eams.html)。右击chrome的快捷方式--目标--在原来字段的后面加上“ --allow-file-access-from-files”即可。
-  该方法对chrome有效，其它webkit内核的浏览器也可，如国内双核浏览器设置后在极速模式下有效，兼容模式下报错。
-  实测下，需要先关闭chrome，等待浏览器进程全部关完后，再用该快捷方式开启即可。
+* Don't build server
+Of course, this time you can only open in the local, but need to do one step, you can [reference here] (http://blog.sina.com.cn/s/blog_a76aa1590101eams.html). Right - click on the shortcut to chrome - target - in the back of the original field and add "--allow-file-access-from-files".
+The method is effective for chrome, other WebKit kernel browser is also available, such as the domestic dual core browser settings in the speed mode is effective, compatible mode error.
+Measured, the need to turn off the chrome, waiting for the browser process all closed, and then the shortcut to open.
   
-*  开启服务器  
-  当然，作为一个web工作者，我仍然推荐你开启服务器，都是静态页面，IIS/apache都是可以胜任的。接下来，你就不受浏览器限制了，IE/火狐都是可以的，你还可以在局域网中的其它设备，包括手机访问到它。
-  当然，绑定域名后，公网上亦可访问。
+*  Open server
+Of course, as a web worker, I still recommend that you open the server, are static pages, IIS/apache are competent. Next, you will not limit the IE/ browser, Firefox is OK, you can also other devices in the LAN, including mobile phone access to it.
+Of course, the binding domain name, the public can also visit.
   
-  尽管如此，它应该是帮助前端工程师组合页面所用，而不应该用在后端。
+In spite of this, it should be used to help the front end engineer to mix the page, and should not be used in the back-end。
   
   
-##### 项目来由  
-　　起因是公司项目采用模块化设计，头部、底部、主体、子模块分别有几个模板，后端再把它们组合成完整的页面。  
-　　一方面前端需要先手工组合出页面，确保样式、脚本在组合页中无误再提交给后端。另一方面随着子模块和组合页越来越多，维护越发麻烦，一个子模块的改动，所有引用到它的合成面都需要改动，于是萌发组合页面的想法。（但是没有什么后端经验就决定用js）
+##### Project.
+Cause is the company's project using modular design, the head, the bottom, the main body, the sub module, respectively, there are several templates, the back-end and then put them into a complete page.
+On the one hand, the front needs to be combined with the page manually, to ensure that the style, the script in the combination page to submit to the back end. On the other hand, with the increasing number of sub modules and combination pages, the maintenance of more trouble, a sub module of the changes, all of the reference to its composite surface need to change, so the idea of the combination of the germination page. (but no backend experience is determined by JS).
   
 ##  
 ###FAQ  
-######为什么不采用iframe?  
-iframe要省事的多,但现今的页面上用得较少,为了模拟更真实的组合页面情况,没有使用它.假使两个脚本冲突了,却因为使用iframe没有把它们找出来,页面组合的目的就大打折扣.
-以后可能会添加iframe的参数,来帮助跨域的加载,但目前没有这个需求.
+######Why not use iframe?
+Iframe to save more, but now the page is seldom used, in order to simulate the real portfolio page, do not use it. If the two script conflict, but because of the use of iframe did not find them out, page the purpose of combination will be greatly reduced.
+Later may add the parameters of the iframe to help cross domain load, but there is no need for this.
 
 
