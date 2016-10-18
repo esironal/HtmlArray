@@ -22,7 +22,7 @@ If there is anything else to say, the path needs to be local, do not allow cross
   !!To be added
 
 ### Use environment
-　　项目的初衷就是用纯前端的方式来组合页，甚至允许前端工程师不用搭建服务器。
+　　The original intention of the project is to use a pure front end of the way to mix the page, and even allows the front end engineers do not need to build the server.
 
 *  Scope of application
 Quick combination page, especially suitable for front end Engineer
