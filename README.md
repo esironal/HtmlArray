@@ -1,7 +1,7 @@
 # HtmlArray
 Combined with the front end of the way HTML page, a combination of static page fast program.
 
-### [Simple Example](https://github.com/dingdong-io/HtmlArray/blob/master/examples/easy.html)
+### [Simple Example](https://esironal.github.io/HtmlArray/)
 Core code 
 
     <script type="text/javascript" src="other/jquery-2.1.4.min.js"></script>
@@ -18,7 +18,7 @@ Core code
 Well, open the page to see it, is so simple.
 If there is anything else to say, the path needs to be local, do not allow cross domain, write a ` http://example.com 'is invalid (unless you are the station webmaster)
   
-### [Parameter example](https://github.com/dingdong-io/HtmlArray/blob/master/examples/AllConfig.html)
+### [Parameter example](https://esironal.github.io/HtmlArray/examples/AllConfig.html)
   !!To be added
 
 ### Use environment
